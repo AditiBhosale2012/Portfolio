@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-
+// import scibins from "./assets/images/s2.jpg";
 // Summary And Greeting Section
 
 const illustration = {
@@ -17,16 +17,16 @@ const greeting = {
     "A passionate Web Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native /Android Studio and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/drive/folders/1rhiin_aor8Ln_9uNbmkOiXaNAiX0zvxU?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/AditiBhosale2012",
+  linkedin: "https://www.linkedin.com/in/aditi-bhosale-8b9782233",
+  gmail: "aditibhosale2012@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -230,29 +230,41 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Project's Made By ME 👩‍💻 ",
+  subtitle: "BELOW ARE SOME PROJECTS MADE BY ME:",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://user-images.githubusercontent.com/84183428/156503995-9b47de4c-894e-414f-850c-762a77262b4a.png",
+      projectName: "SCI-bINS",
+      projectDesc: "Smart IOT based Bins enabled with 2-way communication functionality📲.The intention of this project is to make our environment healthy and clean by incorporating technology in it. ☘️👾",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check Out",
+          url: "https://github.com/AditiBhosale2012/Sci-bINS"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://user-images.githubusercontent.com/84183428/151180946-303f4e32-1c5f-4f57-84c8-0cbb3d00ea08.png",
+      projectName: "SKy-Weather",
+      projectDesc: "Sky weather is a dynamic web application which helps users detect weather condition and any given location by using API to fetch data about different location's🌎⚡.Based on the weather condition the background changes which making it more effective and attractive🌈",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check Out",
+          url: "https://github.com/AditiBhosale2012/Sci-bINS"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: "https://repository-images.githubusercontent.com/280387936/7df18000-cbcb-11ea-961a-3feddc6957e3",
+      projectName: "AI Virtual Assistant",
+      projectDesc: "AI virtual Assistant is a personalized Assistant which runs on voice commands.🤖Build Using PYTHON.",
+      footerLink: [
+        {
+          name: "Check OUT",
+          url: "https://github.com/AditiBhosale2012"  //CHANGE IT afterward
         }
       ]
     }
@@ -378,8 +390,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8104066652",
+  email_address: "aditibhosale2012@gmail.com"
 };
 
 // Twitter Section

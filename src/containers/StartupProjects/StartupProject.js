@@ -3,6 +3,7 @@ import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+// import Button from "../../components/button/Button";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -88,6 +89,10 @@ export default function StartupProject() {
             })}
           </div>
         </div>
+        <span className="ButSeeMore"
+          onClick={() => openUrlInNewTab("https://github.com/AditiBhosale2012")}>
+                              See More Projects
+        </span>
       </div>
     </Fade>
   );
