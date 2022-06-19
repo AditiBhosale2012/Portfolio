@@ -5,22 +5,23 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  workExperiences,
+  techStack,
   skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
+  
+  educationInfo,
+  bigProjects,
   achievementSection
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  // const viewExperience = workExperiences.display;
+  // const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  const viewtechStack = techStack.viewSkillBars;
+  const vieweducation = educationInfo.display;
+  const viewprojects = bigProjects.display;
 
   return (
     <Headroom>
@@ -45,14 +46,21 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
+          {viewtechStack && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#techstack">Proficiency</a>
             </li>
           )}
-          {viewOpenSource && (
+          {vieweducation && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#education">Education</a>
+            </li>
+          )
+
+          }
+          {viewprojects && (
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -60,16 +68,16 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {viewBlog && (
+          {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
-          )}
-          {viewTalks && (
+          )} */}
+          {/* {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
