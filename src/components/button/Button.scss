@@ -17,12 +17,14 @@
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
+
 }
 .main-button:hover {
   background-color: $darkBoxShadow2;
   color: $buttonColor;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
+  box-shadow: 5px 9px 20px #FF10F0;
 }
 .project-button {
   display: flex;

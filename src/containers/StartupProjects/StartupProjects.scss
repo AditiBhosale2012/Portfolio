@@ -48,7 +48,7 @@
 }
 .project-card-light:hover {
   // box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
-  box-shadow: 0px 6px 20px #f298f5;
+  box-shadow: 0px 6px 20px #2e212f;
 }
 .project-card-dark:hover {
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
@@ -81,8 +81,16 @@
   margin: 22px 10px 12px 33px;
   padding: 0 0.75em;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: 0.5s ease-in;
   width: 90%;
+  box-shadow:0px 6px 20px #870789;
+}
+
+.ButSeeMore:hover{
+  background-color:#4c054e;
+  box-shadow: 0px 6px 20px #FF10F0;
+  transform: translateY(-5px);
+
 }
 .project-card-footer span.project-tag {
   background: $buttonColor;
@@ -101,6 +109,12 @@
   cursor: pointer;
   transition: 0.2s ease-in;
   width: 90%;
+}
+
+.project-card-footer span.project-tag:hover{
+  background-color:#870789;
+  box-shadow: 0px 6px 20px #FF10F0;
+  transform: translateY(-10px);
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,24 @@
+@import "../../_globalColor";
+
+#hk{
+  margin-top: 2rem;
+}
+
+.hacker-heading{
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+@media (max-width: 1380px) {
+  .hacker-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hacker-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}

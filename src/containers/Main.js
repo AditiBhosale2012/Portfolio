@@ -12,10 +12,10 @@ import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
-
 import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+import Hackerrank from "./hckrank/Hackerrank";
 import "./Main.scss";
 
 const Main = () => {
@@ -38,6 +38,7 @@ const Main = () => {
         <Projects />
         <StartupProject />
         <Achievement />
+        <Hackerrank/>
         <Blogs />
         <Talks />
        

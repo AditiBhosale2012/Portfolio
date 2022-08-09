@@ -1,0 +1,48 @@
+@import "../../_globalColor";
+
+.badge-image {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+  border-radius: 10px;
+}
+.badge-title {
+  color: $titleColor;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 15px 0 0 0;
+}
+.badge-card {
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.badge-detail-div {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.badge-card:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+.dark-mode.badge-card:hover {
+  box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
+}
+
+.badge-image-div {
+  position: relative;
+  // height: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hacker-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
